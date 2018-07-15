@@ -38,7 +38,6 @@ $(function() {
             }
          });
 
-
         /* TODO: Write a test that loops through each feed
          * in the allFeeds object and ensures it has a name defined
          * and that the name is not empty.
@@ -53,7 +52,7 @@ $(function() {
 
     });
 
-
+    describe('The Menu', function() {
     /* TODO: Write a new test suite named "The menu" */
 
         /* TODO: Write a test that ensures the menu element is
@@ -83,4 +82,5 @@ $(function() {
          * by the loadFeed function that the content actually changes.
          * Remember, loadFeed() is asynchronous.
          */
+     });
 }());
