@@ -94,12 +94,22 @@ $(function() {
          });
      });
      
+     /* New Feed Selection Test Suite */
+     describe('New Feed Selection', function(done) {
+        
+        // Before any tests, run the (asynchronous) loadFeed function
+         beforeEach(function(done) {
+            //Load feed at index 0 of allFeeds
+            loadFeed(0, function() {
+                done();
+            });
+        });
 
-    /* TODO: Write a new test suite named "New Feed Selection" */
-
-        /* TODO: Write a test that ensures when a new feed is loaded
-         * by the loadFeed function that the content actually changes.
-         * Remember, loadFeed() is asynchronous.
+        /* Test that ensures when a new feed is loaded by the loadFeed function, 
+           the content actually changes. Note that loadFeed() is asynchronous.
          */
-    
+
+
+
+     });
 }());
