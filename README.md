@@ -13,7 +13,13 @@ This repository contains Project #4 for the Udacity Front-End Web Development Na
 
 The feed reader application contains a list of 'feed' content links from specified web locations. Feed content is frequently updated, and this application reads in the latest versions from each of the provided source sites for user review. 
 
-Users can navigate between feed source sites by clicking the menu icon on the top left of the page and selecting the feed they would like to view. Different feed locations will have different content - 
+Users can navigate between feed source sites by clicking the menu icon on the top left of the page and selecting the feed they would like to view. Different feed locations will have different content. The default iteration of the feed reader provides content from the following sites:
+* Udacity Blog
+* CSS Tricks
+* HTML5 Rocks
+* Linear Digressions
+
+However, feed content can be changed within the js/app.js file by altering the content of the allFeeds object.
 
 In order to run this feed reader application, you'll need to download the following materials (all available within this repository):
 1. index.html (the jQuery library is required for some of this application - however, it is linked within this file)
