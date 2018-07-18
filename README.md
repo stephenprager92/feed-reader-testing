@@ -11,8 +11,12 @@
 
 This repository contains Project #4 for the Udacity Front-End Web Development Nanodegree. In this project, I was provided with a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite, which I was assigned to build.
 
+The feed reader application contains a list of 'feed' content links from specified web locations. Feed content is frequently updated, and this application reads in the latest versions from each of the provided source sites for user review. 
+
+Users can navigate between feed source sites by clicking the menu icon on the top left of the page and selecting the feed they would like to view. Different feed locations will have different content - 
+
 In order to run this feed reader application, you'll need to download the following materials (all available within this repository):
-1. index.html
+1. index.html (the jQuery library is required for some of this application - however, it is linked within this file)
 2. css/
    * style.css
    * normalize.css
